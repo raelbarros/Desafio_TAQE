@@ -1,0 +1,59 @@
+page-home {
+
+    .toolbar-background{
+        background-color: #FFF;
+        border-bottom: none;
+    }
+
+    .scroll-content {
+        overflow-y: hidden !important;
+    }
+
+    .bg {
+        height: 100%;
+    }
+
+    .title{
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .obs {
+        color: gray;
+        font-family: arial, helvetica, sans-serif;
+        font-size: smaller;
+        font-style: italic;
+    }
+
+    ion-card {
+        position: relative;
+
+        z-index: 1;
+        width: 50%;
+        min-height: 42%;
+        align-content: center;
+    }
+
+    .form {
+        margin: auto;
+        max-width: 512px;
+        padding: 16px;
+        text-align: center;
+        align-content: center;
+    }
+
+    button {
+        position: relative;
+        top: 32px;
+    }
+
+    .list-ios > .item-block:first-child {
+        border-top: none;
+    }
+
+    .invalid {
+        color: red;
+    }
+
+}

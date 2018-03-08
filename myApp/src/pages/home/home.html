@@ -1,0 +1,43 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-title>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <div class="bg">
+      <div class="form">
+
+        <ion-card-header>
+          <span class="title">Calculadora</span>
+        </ion-card-header>
+
+        <ion-card-content>
+            <p class="obs">Obs: troque ( , ) por ( . )</p>
+            <br>          
+          <form [formGroup]="formGroup" (ngSubmit)="opSoma(formGroup.value)">
+            <ion-list>
+              <ion-item>
+                <ion-input id="code" type="text" placeholder="Valor 01" formControlName="valor01"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input id="code" type="text" placeholder="Valor 02"  formControlName="valor02"></ion-input>
+              </ion-item>
+            </ion-list>
+            <button ion-button type="submit">Soma</button>
+          </form>
+        </ion-card-content>
+
+      </div>
+    </div>
+
+    <ion-item text-center>
+      <label class="invalid">{{msgInvalid}}</label>
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>
