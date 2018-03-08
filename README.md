@@ -1,4 +1,4 @@
-# Desafio_TAQUE
+# Desafio_TAQE
 
 Projeto desenvolvido em IONIC 2, para executa-lo é necessario ter instalado o Node.Js na maquina e instalar o Ionic Cordova pelo comando npm install -g cordova ionic no terminal;
 
